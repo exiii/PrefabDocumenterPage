@@ -33,7 +33,7 @@ class Builder extends React.Component {
                 <div id="prefab">
                     {prefabsRowList.map((data) => {
                         return (
-                            <FileInfoComponent.FileInfoComponent FileData={data} />
+                            <FileInfoComponent FileData={data} />
                         );
                     })}
                 </div>
