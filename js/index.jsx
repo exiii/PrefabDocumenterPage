@@ -1,4 +1,4 @@
 ReactDOM.render(
-    <Builder />
+    <DBComponentBuilder />
     , document.getElementById('Documents')
 );

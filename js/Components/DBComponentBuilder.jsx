@@ -1,6 +1,6 @@
 let db = new SQL.Database();
 
-class Builder extends React.Component {
+class DBComponentBuilder extends React.Component {
     
     constructor(props) {
         super(props);
