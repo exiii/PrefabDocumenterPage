@@ -1,7 +1,3 @@
-//import React from 'react';
-//import ReactDOM from 'react-dom';
-import FileInfoComponent from './FileInfoComponent.jsx';
-
 let db = new SQL.Database();
 
 class Builder extends React.Component {
