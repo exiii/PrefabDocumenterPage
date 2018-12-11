@@ -1,0 +1,8 @@
+{
+  "name": "PrefabDocumenterPage",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/pf35301/PrefabDocumenterPage.git",
+  "author": "Sosuke Suzuki <aosukeke@gmail.com>",
+  "license": "MIT"
+}
