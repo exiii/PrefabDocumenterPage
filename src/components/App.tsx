@@ -1,5 +1,7 @@
 import React from "react";
 
-const App = () => <h1>Prefab</h1>;
+const App = () => {
+  return <h1>Prefab</h1>;
+};
 
 export default App;
