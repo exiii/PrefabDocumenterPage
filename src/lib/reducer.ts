@@ -1,6 +1,6 @@
 import { ActionTypes, Action } from "./actionCreators";
 
-interface State {
+export interface State {
   rowList: any[];
 }
 
