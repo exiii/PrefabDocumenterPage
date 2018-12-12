@@ -1,4 +1,1 @@
-ReactDOM.render(
-    <DBComponentBuilder />
-    , document.getElementById('Documents')
-);
+ReactDOM.render(<DBComponentBuilder />, document.getElementById("Documents"));
