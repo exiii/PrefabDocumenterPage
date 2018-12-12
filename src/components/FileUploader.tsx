@@ -1,6 +1,7 @@
 import React, { ChangeEvent } from "react";
+import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import { ActionTypes } from "../lib/actionCreators";
+import { ActionTypes, uploadDBFile } from "../lib/actionCreators";
 
 interface Props {
   uploadDBFile: (file: File) => { type: ActionTypes };
@@ -24,12 +25,6 @@ const FileUploader: React.SFC<Props> = ({ uploadDBFile }) => {
 export default connect(
   null,
   dispatch => ({
-    uploadDBFile: (file: File) =>
-      dispatch({
-        type: ActionTypes.UPLOAD_DB_FILE,
-        payload: {
-          file
-        }
-      })
+    ...bindActionCreators({ uploadDBFile }, dispatch)
   })
 )(FileUploader);
