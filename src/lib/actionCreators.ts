@@ -8,20 +8,21 @@ export interface Action {
   payload: any;
 }
 
-export function uploadDBFile(file: File) {
-  return {
-    type: ActionTypes.UPLOAD_DB_FILE,
-    payload: {
-      file
-    }
-  };
-}
-
-export function addDBToStore(row: any) {
-  return {
-    type: ActionTypes.ADD_DB_TO_STORE,
-    payload: {
-      row
-    }
-  };
-}
+export default {
+  uploadDBFile(file: File) {
+    return {
+      type: ActionTypes.UPLOAD_DB_FILE,
+      payload: {
+        file
+      }
+    };
+  },
+  addDBToStore(row: any) {
+    return {
+      type: ActionTypes.ADD_DB_TO_STORE,
+      payload: {
+        row
+      }
+    };
+  }
+};
