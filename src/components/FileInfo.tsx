@@ -1,5 +1,13 @@
 import React from "react";
+import styled from "styled-components";
 import { Row } from "../lib/types";
+
+const Container = styled.div`
+  padding: 5px 10px;
+  border: 1px solid darkred;
+  margin: 5px 0px;
+  background-color: ivory;
+`;
 
 interface Props {
   fileData: Row;
@@ -18,7 +26,7 @@ export default class FileInfo extends React.Component<Props> {
     const { checked } = this.state;
     const { fileData } = this.props;
     return (
-      <div>
+      <Container>
         <input
           type="checkbox"
           checked={checked}
@@ -35,7 +43,7 @@ export default class FileInfo extends React.Component<Props> {
             <p>{fileData.description}</p>
           </div>
         )}
-      </div>
+      </Container>
     );
   }
 }
