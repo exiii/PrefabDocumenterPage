@@ -19,7 +19,7 @@ export function reducer(state: State = initialState, action: Action) {
         ...state,
         rowList: [...state.rowList, ...payload.rows]
       };
-    case ActionTypes.SET_IS_LOADING:
+    case ActionTypes.SET_IS_LOADING_DB:
       return {
         ...state,
         isLoadingDB: payload.isLoadingDB

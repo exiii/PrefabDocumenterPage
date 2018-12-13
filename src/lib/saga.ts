@@ -24,7 +24,7 @@ function* uploadDBFileSaga(): SagaIterator {
     const { payload } = yield take(ActionTypes.UPLOAD_DB_FILE);
     const { file } = payload;
     yield put({
-      type: ActionTypes.SET_IS_LOADING,
+      type: ActionTypes.SET_IS_LOADING_DB,
       payload: {
         isLoadingDB: true
       }
@@ -51,7 +51,7 @@ function* uploadDBFileSaga(): SagaIterator {
       rows.push(row);
     }
     yield put({
-      type: ActionTypes.SET_IS_LOADING,
+      type: ActionTypes.SET_IS_LOADING_DB,
       payload: {
         isLoadingDB: false
       }
