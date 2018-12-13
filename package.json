@@ -9,7 +9,7 @@
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "lint": "tslint \"src/**/*.{ts,tsx}\"",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --public-url ./"
   },
   "devDependencies": {
     "@types/react": "^16.7.13",
