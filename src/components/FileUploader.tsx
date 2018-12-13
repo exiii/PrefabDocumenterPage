@@ -1,14 +1,14 @@
 import React, { ChangeEvent } from "react";
 import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
-import actionCreators, { ActionTypes } from "../lib/actionCreators";
+import actionCreators, { Action } from "../lib/actionCreators";
 
 interface Props {
-  uploadDBFile: (file: File) => { type: ActionTypes };
+  uploadDBFile: (file: File) => Action;
 }
 
 const FileUploader: React.SFC<Props> = ({ uploadDBFile }) => {
-  const onChangeFileInput = function(ev: ChangeEvent<HTMLInputElement>) {
+  const onChangeFileInput = (ev: ChangeEvent<HTMLInputElement>) => {
     const files = ev.target.files;
     if (files != null) {
       uploadDBFile(files[0]);
