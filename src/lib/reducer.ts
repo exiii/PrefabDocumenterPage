@@ -1,7 +1,8 @@
 import { ActionTypes, Action } from "./actionCreators";
+import { Row } from "./types";
 
 export interface State {
-  rowList: any[];
+  rowList: Row[];
 }
 
 const initialState: State = {

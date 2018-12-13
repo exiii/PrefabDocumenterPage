@@ -11,7 +11,7 @@ const FileInfoList: React.SFC<Props> = ({ rowList }) => {
   return (
     <div>
       {rowList.map(row => (
-        <FileInfo fileData={row} />
+        <FileInfo fileData={row} key={row.guid} />
       ))}
     </div>
   );

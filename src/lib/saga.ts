@@ -40,7 +40,6 @@ function* uploadDBFileSaga(): SagaIterator {
     });
     while (stmt.step()) {
       const row = stmt.getAsObject();
-      stmt.free();
       yield put({
         type: ActionTypes.ADD_DB_TO_STORE,
         payload: {
@@ -48,6 +47,7 @@ function* uploadDBFileSaga(): SagaIterator {
         }
       });
     }
+    stmt.free();
   }
 }
 

@@ -1,12 +1,8 @@
 import React from "react";
+import { Row } from "../lib/types";
 
 interface Props {
-  fileData: {
-    filename: string;
-    filepath: string;
-    guid: string;
-    description: string;
-  };
+  fileData: Row;
 }
 
 interface State {
@@ -26,7 +22,7 @@ export default class FileInfo extends React.Component<Props> {
         <input
           type="checkbox"
           checked={checked}
-          onClick={() => this.setState({ checked: !checked })}
+          onChange={() => this.setState({ checked: !checked })}
         />
         <h2>{fileData.filename}</h2>
         {checked && (

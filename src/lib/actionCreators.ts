@@ -1,3 +1,5 @@
+import { Row } from "./types";
+
 export enum ActionTypes {
   UPLOAD_DB_FILE = "UPLOAD_DB_FILE",
   ADD_DB_TO_STORE = "ADD_DB_TO_STORE"
@@ -17,7 +19,7 @@ export default {
       }
     };
   },
-  addDBToStore(row: any) {
+  addDBToStore(row: Row) {
     return {
       type: ActionTypes.ADD_DB_TO_STORE,
       payload: {
