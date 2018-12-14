@@ -17,7 +17,6 @@
     "@types/react-redux": "^6.0.11",
     "@types/redux": "^3.6.0",
     "@types/redux-logger": "^3.0.6",
-    "@types/redux-saga": "^0.10.5",
     "@types/styled-components": "^4.1.4",
     "parcel-bundler": "^1.10.3",
     "prettier": "^1.15.3",
