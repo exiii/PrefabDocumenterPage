@@ -15,3 +15,6 @@ Output to `/dist`
 ```
 $ yarn build
 ```
+
+## Licence
+MIT
