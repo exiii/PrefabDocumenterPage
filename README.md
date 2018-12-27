@@ -17,4 +17,4 @@ $ yarn build
 ```
 
 ## Licence
-MIT
+CC-BY-4.0
