@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Row } from "../lib/types";
 
 const Container = styled.div`
-  padding: 5px 10px;
+  padding: 0px 10px;
   border: 1px solid darkred;
   margin: 5px 0px;
   background-color: ivory;
@@ -26,12 +26,7 @@ export default class FileInfo extends React.Component<Props> {
     const { checked } = this.state;
     const { fileData } = this.props;
     return (
-      <Container>
-        <input
-          type="checkbox"
-          checked={checked}
-          onChange={() => this.setState({ checked: !checked })}
-        />
+      <Container onClick={() => this.setState({ checked: !checked })}>
         <h2>{fileData.filename}</h2>
         {checked && (
           <div>
