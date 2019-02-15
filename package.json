@@ -1,13 +1,13 @@
 {
   "name": "prefab-documenter-page",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
   "repository": "https://github.com/exiii/PrefabDocumenterPage.git",
   "author": "Yuya Ohta <pf35301@gmail.com>",
   "contributors": [ 
     "Sosuke Suzuki <aosukeke@gmail.com>"
   ],
-  "license": "MIT",
+  "license": "CC-BY-4.0",
   "scripts": {
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "lint": "tslint \"src/**/*.{ts,tsx}\"",

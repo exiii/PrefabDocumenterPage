@@ -1,0 +1,47 @@
+react, react-dom
+Copyright (c) Facebook, Inc. and its affiliates.
+https://github.com/facebook/react/blob/master/LICENSE
+
+redux
+Copyright (c) 2015-present Dan Abramov
+https://github.com/reduxjs/redux/blob/master/LICENSE.md
+
+react-redux
+Copyright (c) 2015-present Dan Abramov
+https://github.com/reduxjs/react-redux/blob/master/LICENSE.md
+
+redux-logger
+Copyright (c) 2016 Eugene Rodionov
+https://github.com/LogRocket/redux-logger/blob/master/LICENSE
+
+styled-components
+Copyright (c) 2016-present Glen Maddern and Maximilian Stoiber
+https://github.com/styled-components/styled-components/blob/master/LICENSE
+
+parcel-bundler
+Copyright (c) 2017-present Devon Govett
+https://github.com/parcel-bundler/parcel/blob/master/LICENSE
+
+prettier
+Copyright © James Long and contributors
+https://github.com/prettier/prettier/blob/master/LICENSE
+
+tslint
+Copyright 2013 Palantir Technologies, Inc
+https://github.com/palantir/tslint/blob/master/LICENSE
+
+tslint-plugin-prettier
+Copyright (c) Ika <ikatyang@gmail.com> (https://github.com/ikatyang)
+https://github.com/prettier/tslint-plugin-prettier/blob/master/LICENSE
+
+typescript
+Copyright (c) Microsoft Inc
+https://github.com/Microsoft/TypeScript/blob/master/LICENSE.txt
+
+redux-saga
+Copyright (c) 2015 Yassine Elouafi
+https://github.com/redux-saga/redux-saga/blob/master/LICENSE
+
+babel/polyfill
+Copyright (c) 2014-present Sebastian McKenzie and other contributors
+https://github.com/babel/babel/blob/master/LICENSE
