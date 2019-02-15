@@ -7,9 +7,6 @@ import FileInfoList from "./FileInfoList";
 const App = () => {
   return (
     <Provider store={store}>
-      <div>
-        <h1>Prefab</h1>
-      </div>
       <FileUploader />
       <FileInfoList />
     </Provider>
